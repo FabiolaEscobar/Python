@@ -11,7 +11,7 @@ areas = ["hallway", hall, "kitchen", kit, "living room", liv, "bedroom", bed, "b
 # Print areas
 print(areas)
 
-##################################
+### [:] indica toda la lista ###
 
 # Create areas_copy
 areas_copy = areas[:]
@@ -43,20 +43,20 @@ print(eat_sleep_area)
 
 ##################################
 
-# Use slicing to create downstairs
+# Use slicing to create downstairs pos 0 to 5
 downstairs = areas[0:6]
 
-# Use slicing to create upstairs
+# Use slicing to create upstairs pos 6 hasta la última
 upstairs = areas[6:]
 
 # Print out downstairs and upstairs
 print(downstairs)
 print(upstairs)
 
-# Alternative slicing to create downstairs
+# Alternative slicing to create downstairs pos 0 to 5
 downstairs = areas[:6]
 
-# Alternative slicing to create upstairs
+# Alternative slicing to create upstairs pos 6 hasta la última
 upstairs = areas[6:]
 
 print(downstairs)
